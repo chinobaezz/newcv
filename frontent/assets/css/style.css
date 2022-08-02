@@ -1,4 +1,21 @@
 .navbar.navbar-expand-lg.bg-secondary{
-  background: rgb(47,34,195);
-  background: linear-gradient(0deg, rgba(47,34,195,1) 11%, rgba(234,239,12,1) 46%, rgba(20,4,88,1) 80%);
+  background: rgb(2,0,36);
+  background: -moz-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);}
+
+  i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(46, 6, 146);
 }
+ i.fa-brands.fa-instagram.fa-2xl:hover{
+  color: rgb(236, 8, 11);
+} 
+i.fa-brands.fa-twitter.fa-2xl:hover{
+  color: rgb(54, 108, 243);
+}
+
+ .list-group{
+  --bs-list-group-bg: tranparent;
+  --bs-list-group-border-color: tranparent;
+  }
