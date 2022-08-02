@@ -1,0 +1,4 @@
+.navbar.navbar-expand-lg.bg-secondary{
+  background: rgb(47,34,195);
+  background: linear-gradient(0deg, rgba(47,34,195,1) 11%, rgba(234,239,12,1) 46%, rgba(20,4,88,1) 80%);
+}
