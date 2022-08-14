@@ -1,12 +1,56 @@
+bdy { 
+  margin: 0.%; 
+  padding: 0.%;
+ }
+ em{
+  background-color: transparent ;color: rgb(59, 248, 12);
+ }
+section.about,
+section.educacion  {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+section.about{
+  background-image: url(../img/microchip.jpg);
+  margin-top: 7.9rem;
+}
+
+section.panel{
+  margin-top: 9rem;
+}
+section.admin{
+  background-image: url(../img/cienciatec.jpg);
+  margin-top: 7.9rem;
+  background-size: 100%;
+  min-height: 100vh;
+}
+
+section.educacion{
+  background-image: url(../img/mundo\ en\ modi.jpg);
+  margin-top: 0rem;
+  height: 30%;
+  
+}
+
+
+
 .navbar.navbar-expand-lg.bg-secondary{
-  background: rgb(2,0,36);
-  background: -moz-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(13,96,243,1) 100%, rgba(0,212,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);}
+  background: rgb(131,58,180);
+  background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#eb0d0a",GradientType=1);}
 
   i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color: rgb(46, 6, 146);
+    color:rgb(7, 19, 178)
+}
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-twitter.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl{
+  color:rgb(243, 249, 246);
 }
  i.fa-brands.fa-instagram.fa-2xl:hover{
   color: rgb(236, 8, 11);
@@ -14,8 +58,15 @@
 i.fa-brands.fa-twitter.fa-2xl:hover{
   color: rgb(54, 108, 243);
 }
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+  color: rgb(5, 247, 138);
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+  color: rgb(12, 185, 238);
+}
 
  .list-group{
   --bs-list-group-bg: tranparent;
   --bs-list-group-border-color: tranparent;
   }
+  
