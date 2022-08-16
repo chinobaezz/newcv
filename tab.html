@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>admin</title>
+  <!--css de bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!--fontawesome-->
+   <script src="https://kit.fontawesome.com/1a0a6b1ea9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="/frontent/assets/css/style.css">
+</head>
+<body>
+  <!--nab-->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/frontent/assets/img/argentina programa Logo-20-20 (1).png" alt="" width="18%" height="">
+      </a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+        <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
+        <li class="list-group-item"><i class="fa-brands fa-twitter fa-2xl"></i></li>
+         <!-- Button trigger modal -->
+        <li class="list-group-item">
+          <i class="fa-solid fa-user fa-2xl" type="button" data-bs-toggle="modal" >
+          </i>
+        </li>
+      </ul>
+
+
+
+    </nav>
+    <section id="sobre-mi " class="admin">
+  <div class="container-fluit text-center">
+    <div class="row">
+      <!--sidebar-->
+      <div class="col-3">
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+           <a href="/index.html" target="_blank" > <button class="nav-link active" id="v-pills-home-tab"   type="button" >home</button></a>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">perfil</button>
+
+            <button class="nav-link" id="v-pills-trabajo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-trabajo" type="button" role="tab" aria-controls="v-pills-trabajo" aria-selected="false">experiencia laboral</button>
+
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">estudios</button>
+
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+          </div>
+          <!--
+          <div class="tab-content" id="v-pills-tabContent">
+            
+            
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">3</div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">4</div>
+          </div>-->
+        </div>
+      </div>
+      <!--body-->
+      <div class="col-9 tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0"> <h4>Datos personales</h4>
+          <div class="mb-3">
+            
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">foto de usuario</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <label for="formFileSm" class="form-label">Nombre y apellido</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            </div>
+            <button type="button" class="btn btn-primary">Guardar</button><hr>
+          </div></div>
+
+          <div class="col-9 tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade" id="v-pills-trabajo" role="tabpanel" aria-labelledby="v-pills-trabajo-tab" tabindex="0">
+           <h4>experiencia laboral</h4>
+              <div class="mb-3">
+
+              <div class="mb-3">
+                <label for="formFileSm" class="form-label">nombre de empresa</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="text"><br>
+                <label for="formFileSm" class="form-label">periodo de trabajo desde</label>
+                <input type="date" id="start" name="trip-start"
+           value="2022-07-22"
+           min="1991-01-01" max="2023-12-31">
+           <label for="formFileSm" class="form-label">hasta</label>
+                <input type="date" id="start" name="trip-start"
+           value="2018-07-22"
+           min="1991-01-01" max="2022-12-31">
+                <input class="form-control form-control-sm" id="formFileSm" type="texto" placeholder="descripcion del trabajo que realiza">
+                </div>
+                <button type="button" class="btn btn-primary">Guardar</button><hr>
+              </div></div></div>
+           
+              
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><h4>estudios</h4>
+              
+                  
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Nombre del establesimiento</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="text">
+                  </div>
+                  <button type="button" class="btn btn-primary">Guardar</button></div>
+           
+      </div> 
+     
+    </div>
+      </div></div>
+
+
+ <!--ja bosstrap-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+</body>
+</html>

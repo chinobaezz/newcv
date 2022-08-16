@@ -1,65 +1,102 @@
-bdy { 
-  margin: 0.%; 
-  padding: 0.%;
- }
+
  em{
   background-color: transparent ;color: rgb(59, 248, 12);
  }
+/*section*/
 section.about,
 section.educacion  {
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
 section.about{
-  background-image: url(../img/microchip.jpg);
-  margin-top: 7.9rem;
+  background-image: url(../img/codigo.jpg);
+  margin-top: 0rem;
+  z-index: 0;
+  height: auto;
+  width: 100%;
+}
+
+.rounded-circle.w-25{
+  margin-top: -10rem;
+  width: 19rem !important;;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  width: 100px;
+  height: auto;
+  margin-left: -3rem;
+  
 }
 
 section.panel{
   margin-top: 9rem;
 }
+
 section.admin{
   background-image: url(../img/cienciatec.jpg);
   margin-top: 7.9rem;
   background-size: 100%;
   min-height: 100vh;
 }
-
 section.educacion{
-  background-image: url(../img/mundo\ en\ modi.jpg);
+  background-image: url(../img/prsviejanegro.webp);
   margin-top: 0rem;
   height: 30%;
-  
+}
+section.trabajo{
+  background-image: url(../img/lentes.jpg);
+  margin-top: -20rem;
+  height: 30%;
+}
+/*margenes especiales*/
+h3.mt{
+  color: aliceblue;
 }
 
+h5.mt-2{
+  margin-top: 25rem;
+ color: hwb(110 87% 1%);
+ }
 
-
+/*nav*/
 .navbar.navbar-expand-lg.bg-secondary{
   background: rgb(131,58,180);
   background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,64,253,1) 50%, rgba(235,13,10,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#eb0d0a",GradientType=1);}
-
-  i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:rgb(7, 19, 178)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#eb0d0a",GradientType=1);
 }
+
 i.fa-brands.fa-linkedin.fa-2xl,
 i.fa-brands.fa-instagram.fa-2xl,
 i.fa-brands.fa-twitter.fa-2xl,
 i.fa-solid.fa-user-lock.fa-2xl,
 i.fa-solid.fa-user.fa-2xl{
+
   color:rgb(243, 249, 246);
+}
+/*logos*/
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+  color:rgb(7, 19, 178)
+  transition transform 0.3s ease-in-out;
+  transform: scale(1.25);
 }
  i.fa-brands.fa-instagram.fa-2xl:hover{
   color: rgb(236, 8, 11);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.25);
 } 
 i.fa-brands.fa-twitter.fa-2xl:hover{
   color: rgb(54, 108, 243);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.25);
 }
 i.fa-solid.fa-user-lock.fa-2xl:hover{
   color: rgb(5, 247, 138);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.25);
 }
 i.fa-solid.fa-user.fa-2xl:hover{
   color: rgb(12, 185, 238);
@@ -69,4 +106,8 @@ i.fa-solid.fa-user.fa-2xl:hover{
   --bs-list-group-bg: tranparent;
   --bs-list-group-border-color: tranparent;
   }
+  /*carruzel*/
+.carousel.slide{
+  margin-top: 2rem;
+}
   
