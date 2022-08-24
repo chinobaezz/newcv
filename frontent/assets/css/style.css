@@ -17,7 +17,7 @@ section.about{
   height: auto;
   width: 100%;
 }
-
+/*fotoprfl*/
 .rounded-circle.w-25{
   margin-top: -10rem;
   width: 19rem !important;;
@@ -29,7 +29,7 @@ section.about{
   margin-left: -3rem;
   
 }
-
+/*seccion*/
 section.panel{
   margin-top: 9rem;
 }
@@ -40,24 +40,38 @@ section.admin{
   background-size: 100%;
   min-height: 100vh;
 }
-section.educacion{
-  background-image: url(../img/prsviejanegro.webp);
-  margin-top: 0rem;
+
+section.trabajo{
+ margin-top: 0rem;
   height: 30%;
 }
-section.trabajo{
-  background-image: url(../img/lentes.jpg);
-  margin-top: -20rem;
+section.educacion{
+  background-image: url();
+  margin-top: -0rem;
   height: 30%;
+}
+section.sobretodo{
+  background-image: url(../img/ciudadgrisalreves.jpg);
+  
+}
+section.debajo{
+  background-image: url(../img/ciudadgris.jpg); 
+  margin-top: -7.5rem;
+}
+
+
+section.proyectos{
+   margin-top: -18rem;
+  
 }
 /*margenes especiales*/
 h3.mt{
-  color: aliceblue;
+  color: rgb(4, 135, 250);
 }
 
 h5.mt-2{
   margin-top: 25rem;
- color: hwb(110 87% 1%);
+ color: #0f100f;
  }
 
 /*nav*/
@@ -79,9 +93,10 @@ i.fa-solid.fa-user.fa-2xl{
 }
 /*logos*/
 i.fa-brands.fa-linkedin.fa-2xl:hover{
-  color:rgb(7, 19, 178)
-  transition transform 0.3s ease-in-out;
+  color:rgb(9, 25, 250);
+  transition: transform 0.3s ease-in-out;
   transform: scale(1.25);
+  
 }
  i.fa-brands.fa-instagram.fa-2xl:hover{
   color: rgb(236, 8, 11);
@@ -110,4 +125,12 @@ i.fa-solid.fa-user.fa-2xl:hover{
 .carousel.slide{
   margin-top: 2rem;
 }
-  
+  section.contact{
+    background-color: rgb(70, 70, 73);
+width:auto;
+height: auto;
+  }
+  h3.ny{
+    background-color: transparent;color: #f5f2f2;
+  }
+ 
